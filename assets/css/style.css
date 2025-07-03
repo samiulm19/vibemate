@@ -1122,10 +1122,10 @@ footer {
 
 .offcanvas-body ul li a {
     font-size: 20px;
-    color: var(--primary-color);
+    color: #000;
     padding-block: 10px;
     display: block;
-    border-bottom: 1px solid var(--primary-color);
+    border-bottom: 1px solid #000;
 }
 
 .offcanvas-body ul li a:hover {
