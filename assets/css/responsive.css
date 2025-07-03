@@ -1,0 +1,366 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+
+    .hero__image {
+        width: 50.2%;
+    }
+
+    .footer__widget.widget2 {
+        width: 16%;
+    }
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .footer__widget.widget2 {
+        width: 16%;
+    }
+
+    .header__text h1 {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    .header__text p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .hero__image {
+        width: 55.2%;
+    }
+
+    .footer__sub__input input {
+        font-size: 14px;
+    }
+
+    .header__navigation ul {
+        gap: 20px;
+    }
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .hero__content {
+        max-width: unset;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero__buttons {
+        justify-content: center;
+    }
+
+    .hero__qr {
+        margin-top: 40px;
+        justify-content: center;
+    }
+
+    .hero__area {
+        padding-block: 80px 0;
+        margin-top: 62px;
+    }
+
+    .header__text h1 {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    .header__text p {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .hero__image {
+        width: 80%;
+        position: relative;
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    .circle__gradient {
+        left: 0;
+    }
+
+    .single__feature {
+        width: 48%;
+    }
+
+    .single__step {
+        width: 48.7%;
+        margin: auto;
+    }
+
+    .step__number {
+        margin-bottom: 25px;
+    }
+
+    .step__flex {
+        row-gap: 50px;
+    }
+
+    .single__user {
+        width: 48.29%;
+    }
+
+    .user__flex {
+        row-gap: 28px;
+        padding: 0;
+    }
+
+    .single__price {
+        width: 60%;
+        margin: auto;
+    }
+
+    .price__flex {
+        gap: 30px;
+    }
+
+    .footer__flex {
+        gap: 40px;
+    }
+
+    .footer__widget {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer__social {
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .footer__widget.widget4 {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 315px) and (max-width: 767px) {
+
+    .hero__content {
+        max-width: unset;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero__buttons {
+        justify-content: center;
+        /*! flex-direction: column; */
+    }
+
+    .hero__qr {
+        margin-top: 40px;
+        justify-content: center;
+    }
+
+    .hero__area {
+        padding-block: 60px 0;
+        margin-top: 62px;
+    }
+
+    .header__text h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+        line-height: 44px;
+        margin-top: 50px;
+    }
+
+    .header__text p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    .hero__image {
+        width: 80%;
+        position: relative;
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    .circle__gradient {
+        left: 0;
+    }
+
+    .single__feature {
+        width: 100%;
+    }
+
+    .single__step {
+        width: 100%;
+        margin: auto;
+    }
+
+    .step__number {
+        margin-bottom: 15px;
+    }
+
+    .step__flex {
+        row-gap: 50px;
+    }
+
+    .single__user {
+        width: 100%;
+    }
+
+    .user__flex {
+        row-gap: 28px;
+        padding: 0;
+    }
+
+    .single__price {
+        width: 100%;
+        margin: auto;
+    }
+
+    .price__flex {
+        gap: 30px;
+    }
+
+    .footer__flex {
+        gap: 40px;
+    }
+
+    .footer__widget {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer__social {
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .footer__widget.widget4 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .hero__buttons .theme__btn {
+        justify-content: center;
+        width: 143px;
+        /*! margin: auto; */
+        font-size: 12px;
+        padding: 18px 15px;
+    }
+
+    .feature__area {
+        padding-block: 60px;
+    }
+
+    .section__title {
+        margin-bottom: 50px;
+    }
+
+    .experience__area {
+        padding-block: 60px;
+    }
+
+    .single__experience {
+        width: 100%;
+    }
+
+    .user__area {
+        padding-block: 60px;
+    }
+
+    .single__counter {
+        width: 48%;
+    }
+.single__counter p {
+	font-size: 12px;
+	line-height: 16px;
+}
+    .vibemate__table__area {
+        padding-block: 60px;
+    }
+
+    .vibemate__table th,
+    .vibemate__table td {
+        font-size: 12px;
+    }
+
+    .second__col img {
+        width: 16px;
+    }
+
+    .third__col img {
+        width: 12px;
+    }
+
+    .price__area {
+        padding-block: 60px;
+    }
+
+    .price__discount__toggle {
+        gap: 12px;
+        flex-direction: column;
+    }
+
+    .footer__credit {
+        gap: 20px;
+        justify-content: center !important;
+    }
+
+    .footer__credit p,
+    .footer__privacy__menu a {
+        text-align: center;
+    }
+
+    footer {
+        padding-block: 64px 40px;
+    }
+
+    .footer__privacy__menu {
+        gap: 15px;
+    }
+.section__title h1 {
+	font-size: 26px;
+	line-height: 32px;
+}
+.section__title p {
+	font-size: 16px;
+}
+.step__text h3 {
+	color: var(--text-color1);
+	font-size: 20px;
+	margin-bottom: 2px;
+}
+.single__counter .figure {
+	color: var(--white);
+	font-size: 24px;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 4px;
+	display: block;
+}
+.testimonial__text h1 {
+	font-size: 30px;
+	line-height: 41px;
+	margin-bottom: 10px;
+}
+.testimonial__text p {
+	font-size: 16px;
+	line-height: 25px;
+}
+.experience__text p {
+	font-size: 14px;
+	line-height: 22px;
+}
+}
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single__experience {
+        width: 66%;
+        margin: auto;
+    }
+}
