@@ -1141,5 +1141,8 @@ footer {
     justify-content: center;
     display: flex;
 }
-
+.footer__credit p a {
+    color: #9CA3AF;
+    font-weight: 600;
+}
 /* offcanva end here */
