@@ -10,7 +10,7 @@
     <title>Vibemate</title>
 
     <!-- favicon here -->
-    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/png">
 
     <!-- css files link here -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -79,8 +79,8 @@
                             <a href="#" class="theme__btn bordered__btn login__btn">Log In</a>
                             <a href="#" class="theme__btn signup__btn">Sign Up</a>
                         </div>
-                        <a class="offcanva__trigger d-lg-none d-flex" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-                            aria-controls="offcanvasExample">
+                        <a class="offcanva__trigger d-lg-none d-flex" data-bs-toggle="offcanvas"
+                            href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                             <i class="fas fa-bars"></i>
                         </a>
                     </div>
@@ -505,7 +505,28 @@
                                 <h1>What Our Users Say</h1>
                                 <p>Join thousands of happy users who are connecting and earning on Vibemate.</p>
                             </div>
-                            <div class="user__flex d-flex justify-content-between flex-wrap">
+                            <div class="user__carousel owl-carousel owl-theme">
+                                <div class="single__user" data-aos="flip-up">
+                                    <div class="user__profile">
+                                        <div class="user__profile__image">
+                                            <a href="#"><img src="assets/img/user1.png" alt="User-Image"></a>
+                                        </div>
+                                        <div class="user__profile__info">
+                                            <h4>Sarah J.</h4>
+                                            <div class="user__profile__rating">
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                                <a href="#"><i class="fas fa-star"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="user__text">
+                                        <p>"I've met amazing people on Vibemate and earned enough tokens to get a $50
+                                            Amazon gift card in my first month!"</p>
+                                    </div>
+                                </div>
                                 <div class="single__user" data-aos="flip-up">
                                     <div class="user__profile">
                                         <div class="user__profile__image">
@@ -570,6 +591,7 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -679,84 +701,181 @@
                                 <h1>Choose Your Plan</h1>
                                 <p>Select the plan that works best for you and your goals.</p>
                             </div>
-                            <div class="price__discount__toggle d-flex justify-content-center align-items-center" data-aos="fade-up">
+                            <!-- Toggle Switch -->
+                            <div class="price__discount__toggle d-flex justify-content-center align-items-center">
                                 <span>Monthly</span>
                                 <div class="discount__toggle d-flex">
-                                    <input type="checkbox" id="toggleDiscount" hidden>
+                                    <input type="checkbox" id="toggleDiscount" hidden />
                                     <label for="toggleDiscount"></label>
                                 </div>
-                                <span class="discount__number">
-                                    Quarterly (Save 20%)
-                                </span>
+                                <span class="discount__number">Quarterly (Save 20%)</span>
                             </div>
-                            <div class="price__flex d-flex justify-content-between align-items-center flex-wrap">
-                                <div class="single__price" data-aos="fade-up">
-                                    <div class="price__card">
-                                        <h4>Free</h4>
-                                        <div class="price__number">
-                                            <h1>£0</h1>
-                                            <sup>/month</sup>
+
+                            <!-- Pricing Wrapper -->
+                            <div class="pricing-wrapper" style="position: relative;">
+
+                                <!-- Monthly Pricing Section -->
+                                <div class="pricing-tab monthly-pricing active-tab">
+                                    <div
+                                        class="price__flex d-flex justify-content-between align-items-center flex-wrap">
+
+                                        <!-- Free Plan -->
+                                        <div class="single__price" data-aos="fade-up">
+                                            <div class="price__card">
+                                                <h4>Free</h4>
+                                                <div class="price__number">
+                                                    <h1>£0</h1>
+                                                    <sup>/month</sup>
+                                                </div>
+                                                <div class="price__feature">
+                                                    <ul>
+                                                        <li>Basic profile</li>
+                                                        <li>Swipe & match</li>
+                                                        <li>Limited messaging</li>
+                                                        <li>Basic token earnings</li>
+                                                        <li>Create or Join Challenge </li>
+                                                        <li>Refer & Earn</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="price__button">
+                                                    <a href="#" class="price__btn">Get Started</a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="price__feature">
-                                            <ul>
-                                                <li>Basic profile</li>
-                                                <li>Swipe & match</li>
-                                                <li>Limited messaging</li>
-                                                <li>Basic token earnings</li>
-                                                <li>Create or Join Challenge </li>
-                                                <li>Refer & Earn</li>
-                                            </ul>
+
+                                        <!-- Premium Plan -->
+                                        <div class="single__price" data-aos="zoom-in" data-aos-delay="300">
+                                            <div class="price__card premium__card">
+                                                <div class="card__tag">
+                                                    <h5>Most Popular</h5>
+                                                </div>
+                                                <h4>Premium</h4>
+                                                <div class="price__number">
+                                                    <h1>£14.99</h1>
+                                                    <sup>/month</sup>
+                                                </div>
+                                                <div class="price__feature">
+                                                    <ul>
+                                                        <li>Everything in Free</li>
+                                                        <li>Priority matches</li>
+                                                        <li>Unlimited messaging</li>
+                                                        <li>2x token earning boost</li>
+                                                        <li>Ad-free experience</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="price__button">
+                                                    <a href="#" class="price__btn theme__btn">Get Premium</a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="price__button">
-                                            <a href="#" class="price__btn">Get Started</a>
+
+                                        <!-- Creator Pro Plan -->
+                                        <div class="single__price" data-aos="fade-up">
+                                            <div class="price__card">
+                                                <h4>Creator Pro</h4>
+                                                <div class="price__number">
+                                                    <h1>£29.99</h1>
+                                                    <sup>/month</sup>
+                                                </div>
+                                                <div class="price__feature">
+                                                    <ul>
+                                                        <li>Everything in Premium</li>
+                                                        <li>Stream monetization</li>
+                                                        <li>Host challenges</li>
+                                                        <li>5x token earning boost</li>
+                                                        <li>Priority support</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="price__button">
+                                                    <a href="#" class="price__btn theme">Get Creator Pro</a>
+                                                </div>
+                                            </div>
                                         </div>
+
                                     </div>
                                 </div>
-                                <div class="single__price" data-aos="zoom-in" data-aos-delay="300">
-                                    <div class="price__card premium__card">
-                                        <div class="card__tag">
-                                            <h5>Most Popular</h5>
+
+                                <!-- Quarterly Pricing Section -->
+                                <div class="pricing-tab quarterly-pricing">
+                                    <div
+                                        class="price__flex d-flex justify-content-between align-items-center flex-wrap">
+
+                                        <!-- Free Plan -->
+                                        <div class="single__price" data-aos="fade-up">
+                                            <div class="price__card">
+                                                <h4>Free</h4>
+                                                <div class="price__number">
+                                                    <h1>£0</h1>
+                                                    <sup>/quarter</sup>
+                                                </div>
+                                                <div class="price__feature">
+                                                    <ul>
+                                                        <li>Basic profile</li>
+                                                        <li>Swipe & match</li>
+                                                        <li>Limited messaging</li>
+                                                        <li>Basic token earnings</li>
+                                                        <li>Create or Join Challenge </li>
+                                                        <li>Refer & Earn</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="price__button">
+                                                    <a href="#" class="price__btn">Get Started</a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <h4>Premium</h4>
-                                        <div class="price__number">
-                                            <h1>£14.99</h1>
-                                            <sup>/month</sup>
+
+                                        <!-- Premium Plan -->
+                                        <div class="single__price" data-aos="zoom-in" data-aos-delay="300">
+                                            <div class="price__card premium__card">
+                                                <div class="card__tag">
+                                                    <h5>Most Popular</h5>
+                                                </div>
+                                                <h4>Premium</h4>
+                                                <div class="price__number">
+                                                    <h1>£35.99</h1>
+                                                    <sup>/quarter</sup>
+                                                </div>
+                                                <div class="price__feature">
+                                                    <ul>
+                                                        <li>Everything in Free</li>
+                                                        <li>Priority matches</li>
+                                                        <li>Unlimited messaging</li>
+                                                        <li>2x token earning boost</li>
+                                                        <li>Ad-free experience</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="price__button">
+                                                    <a href="#" class="price__btn theme__btn">Get Premium</a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="price__feature">
-                                            <ul>
-                                                <li>Everything in Free</li>
-                                                <li>Priority matches</li>
-                                                <li>Unlimited messaging</li>
-                                                <li>2x token earning boost</li>
-                                                <li>Ad-free experience</li>
-                                            </ul>
+
+                                        <!-- Creator Pro Plan -->
+                                        <div class="single__price" data-aos="fade-up">
+                                            <div class="price__card">
+                                                <h4>Creator Pro</h4>
+                                                <div class="price__number">
+                                                    <h1>£71.99</h1>
+                                                    <sup>/quarter</sup>
+                                                </div>
+                                                <div class="price__feature">
+                                                    <ul>
+                                                        <li>Everything in Premium</li>
+                                                        <li>Stream monetization</li>
+                                                        <li>Host challenges</li>
+                                                        <li>5x token earning boost</li>
+                                                        <li>Priority support</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="price__button">
+                                                    <a href="#" class="price__btn theme">Get Creator Pro</a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="price__button">
-                                            <a href="#" class="price__btn theme__btn">Get Premium</a>
-                                        </div>
+
                                     </div>
                                 </div>
-                                <div class="single__price" data-aos="fade-up">
-                                    <div class="price__card">
-                                        <h4>Creator Pro</h4>
-                                        <div class="price__number">
-                                            <h1>£29.99</h1>
-                                            <sup>/month</sup>
-                                        </div>
-                                        <div class="price__feature">
-                                            <ul>
-                                                <li>Everything in Premium</li>
-                                                <li>Stream monetization</li>
-                                                <li>Host challenges</li>
-                                                <li>5x token earning boost</li>
-                                                <li>Priority support</li>
-                                            </ul>
-                                        </div>
-                                        <div class="price__button">
-                                            <a href="#" class="price__btn theme">Get Creator Pro</a>
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -811,7 +930,17 @@
         <!-- testimonial area end here -->
 
     </main>
+    
 
+<div class="cookie-popup hide" id="cookiePopup">
+    <p>
+        We use cookies to improve your experience. By using our site, you agree to our use of cookies.
+    </p>
+    <div class="cookie-buttons">
+        <button id="acceptCookies">Accept</button>
+        <button id="closeCookies" class="close-btn" aria-label="Close popup">&times;</button>
+    </div>
+</div>
 
 
     <!-- footer area start here -->
@@ -929,7 +1058,7 @@
                         </div>
                     </div>
                     <div class="footer__credit d-flex justify-content-between align-items-center flex-wrap">
-                        <p>© 2023 <a href="#" style="text-decoration: none;">Vibemate</a>. All rights reserved.</p>
+                        <p>© 2023 Vibemate. All rights reserved.</p>
                         <div class="footer__privacy__menu">
                             <a href="#">Privacy Policy</a>
                             <a href="#">Terms of Service</a>
@@ -949,8 +1078,56 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/aos.js"></script>
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+    <!-- jQuery + Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
     <script src="assets/js/counter.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const toggle = document.getElementById("toggleDiscount");
+            const monthlyTab = document.querySelector(".monthly-pricing");
+            const quarterlyTab = document.querySelector(".quarterly-pricing");
+
+            toggle.addEventListener("change", function () {
+                if (toggle.checked) {
+                    monthlyTab.classList.remove("active-tab");
+                    quarterlyTab.classList.add("active-tab");
+                } else {
+                    quarterlyTab.classList.remove("active-tab");
+                    monthlyTab.classList.add("active-tab");
+                }
+            });
+        });
+    </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const cookiePopup = document.getElementById("cookiePopup");
+    const acceptBtn = document.getElementById("acceptCookies");
+    const closeBtn = document.getElementById("closeCookies");
+
+    if (!localStorage.getItem("cookiesAccepted")) {
+        cookiePopup.classList.remove("hide");
+    }
+
+    acceptBtn.addEventListener("click", function () {
+        localStorage.setItem("cookiesAccepted", "true");
+        cookiePopup.classList.add("hide");
+    });
+
+    closeBtn.addEventListener("click", function () {
+        cookiePopup.classList.add("hide");
+    });
+});
+</script>
+
 
 </body>
 
