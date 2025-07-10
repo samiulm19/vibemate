@@ -38,6 +38,10 @@
     .header__navigation ul {
         gap: 20px;
     }
+
+    .article__area {
+        padding-block: 100px;
+    }
 }
 
 
@@ -137,6 +141,24 @@
     .footer__widget.widget4 {
         width: 60%;
         margin: auto;
+    }
+
+    .contact__form {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .contact__extra {
+        width: 100%;
+    }
+
+    .article__area {
+        padding-block: 80px;
+    }
+
+    .page__title {
+        padding-block: 100px;
+        margin-top: 62px;
     }
 }
 
@@ -274,10 +296,12 @@
     .single__counter {
         width: 48%;
     }
-.single__counter p {
-	font-size: 12px;
-	line-height: 16px;
-}
+
+    .single__counter p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
     .vibemate__table__area {
         padding-block: 60px;
     }
@@ -321,39 +345,133 @@
     .footer__privacy__menu {
         gap: 15px;
     }
-.section__title h1 {
-	font-size: 26px;
-	line-height: 32px;
-}
-.section__title p {
-	font-size: 16px;
-}
-.step__text h3 {
-	color: var(--text-color1);
-	font-size: 20px;
-	margin-bottom: 2px;
-}
-.single__counter .figure {
-	color: var(--white);
-	font-size: 24px;
-	font-weight: 400;
-	line-height: normal;
-	margin-bottom: 4px;
-	display: block;
-}
-.testimonial__text h1 {
-	font-size: 30px;
-	line-height: 41px;
-	margin-bottom: 10px;
-}
-.testimonial__text p {
-	font-size: 16px;
-	line-height: 25px;
-}
-.experience__text p {
-	font-size: 14px;
-	line-height: 22px;
-}
+
+    .section__title h1 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .section__title p {
+        font-size: 16px;
+    }
+
+    .step__text h3 {
+        color: var(--text-color1);
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+
+    .single__counter .figure {
+        color: var(--white);
+        font-size: 24px;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 4px;
+        display: block;
+    }
+
+    .testimonial__text h1 {
+        font-size: 30px;
+        line-height: 41px;
+        margin-bottom: 10px;
+    }
+
+    .testimonial__text p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .experience__text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .contact__form {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .contact__extra {
+        width: 100%;
+    }
+
+    .contact__tab__list button {
+        gap: 5px;
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+
+    .contact__title h1 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .contact__title p {
+        font-size: 16px;
+    }
+
+    .contact__title {
+        margin-bottom: 30px;
+    }
+
+    .article__content {
+        padding: 20px;
+    }
+
+    .article__text p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .article__text__timeline h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .article__title__para {
+        margin-bottom: 15px;
+    }
+
+    .article__text__timeline {
+        margin-bottom: 15px;
+    }
+
+    .single__article__list h5 {
+        font-size: 18px;
+    }
+
+    .single__article {
+        margin-bottom: 15px;
+    }
+
+    .article__list__content ul li {
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .single__article__list {
+        margin-bottom: 15px;
+    }
+
+    .article__area {
+        padding-block: 50px;
+    }
+
+    .page__title__text h1 {
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 8px;
+    }
+
+    .page__title__text p {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .page__title {
+        padding-block: 60px;
+        margin-top: 62px;
+    }
 }
 
 
